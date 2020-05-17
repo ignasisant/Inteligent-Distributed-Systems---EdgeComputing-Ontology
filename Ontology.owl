@@ -1,0 +1,1135 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ignasi/ontologies/2020/4/untitled-ontology-16"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ignasi/ontologies/2020/4/untitled-ontology-16">
+    <Prefix name="" IRI="http://www.semanticweb.org/ignasi/ontologies/2020/4/untitled-ontology-16"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Battery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BatteryAttributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BatteryChargeStateAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BatteryIntervalAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BatteryRiskAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BatterySpecificationsAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CapacitySpecification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChargeVelocitySpecification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CloudDevices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputeDataMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EdgeDevices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forecast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthSpecification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LatitudeLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LongitudeLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SendDataMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TakeDataMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDevices"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#FunctionIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#FunctionOut"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBattery"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasChargeState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCloudDevice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComputed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEdgeDevice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasForecast"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInterval"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRisk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpecification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUserDevice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBatteryAtributeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBatteryOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isChargeStateOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCloudDeviceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComputationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEdgeDeviceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isForecastOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIntervalOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRiskOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSensorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSpecificationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTimeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUserDeviceOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#batteryAttributesData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#batteryData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#batteryForecastData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#capacityData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#chargeStateData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#chargeVelocityData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#funcName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#healthData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#highValueData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#intervalData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#latitudeData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#locationData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#longitudeData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lowValueData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#methodsData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#networkData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#riskData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#specificationData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#timeData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Battery1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CloudServer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Forecast1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Location1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sensor1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smartphone1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#System1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Battery"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BatteryAttributes"/>
+        <Class IRI="#Battery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BatteryChargeStateAttribute"/>
+        <Class IRI="#BatteryAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BatteryIntervalAttribute"/>
+        <Class IRI="#BatteryAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BatteryRiskAttribute"/>
+        <Class IRI="#BatteryAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BatterySpecificationsAttribute"/>
+        <Class IRI="#BatteryAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CapacitySpecification"/>
+        <Class IRI="#BatterySpecificationsAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChargeVelocitySpecification"/>
+        <Class IRI="#BatterySpecificationsAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloudDevices"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputeDataMethod"/>
+        <Class IRI="#Methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EdgeDevices"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forecast"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthSpecification"/>
+        <Class IRI="#BatterySpecificationsAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighValue"/>
+        <Class IRI="#BatteryIntervalAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LatitudeLocation"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongitudeLocation"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowValue"/>
+        <Class IRI="#BatteryIntervalAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methods"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SendDataMethod"/>
+        <Class IRI="#Methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TakeDataMethod"/>
+        <Class IRI="#Methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeAttribute"/>
+        <Class IRI="#BatteryAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDevices"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Battery"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Methods"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BatteryChargeStateAttribute"/>
+        <Class IRI="#BatteryIntervalAttribute"/>
+        <Class IRI="#BatteryRiskAttribute"/>
+        <Class IRI="#BatterySpecificationsAttribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CapacitySpecification"/>
+        <Class IRI="#ChargeVelocitySpecification"/>
+        <Class IRI="#HealthSpecification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CloudDevices"/>
+        <Class IRI="#EdgeDevices"/>
+        <Class IRI="#UserDevices"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ComputeDataMethod"/>
+        <Class IRI="#SendDataMethod"/>
+        <Class IRI="#TakeDataMethod"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HighValue"/>
+        <Class IRI="#LowValue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LatitudeLocation"/>
+        <Class IRI="#LongitudeLocation"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Battery"/>
+        <NamedIndividual IRI="#Battery1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CloudDevices"/>
+        <NamedIndividual IRI="#CloudServer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EdgeDevices"/>
+        <NamedIndividual IRI="#Sensor1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDevices"/>
+        <NamedIndividual IRI="#Smartphone1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <NamedIndividual IRI="#Location1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isBatteryOf"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <NamedIndividual IRI="#Sensor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+        <NamedIndividual IRI="#CloudServer1"/>
+        <NamedIndividual IRI="#Battery1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasForecast"/>
+        <NamedIndividual IRI="#CloudServer1"/>
+        <NamedIndividual IRI="#Forecast1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCloudDeviceOf"/>
+        <NamedIndividual IRI="#CloudServer1"/>
+        <NamedIndividual IRI="#System1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isForecastOf"/>
+        <NamedIndividual IRI="#Forecast1"/>
+        <NamedIndividual IRI="#Sensor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocationOf"/>
+        <NamedIndividual IRI="#Location1"/>
+        <NamedIndividual IRI="#Battery1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocationOf"/>
+        <NamedIndividual IRI="#Location1"/>
+        <NamedIndividual IRI="#Sensor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBattery"/>
+        <NamedIndividual IRI="#Sensor1"/>
+        <NamedIndividual IRI="#Battery1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+        <NamedIndividual IRI="#Sensor1"/>
+        <NamedIndividual IRI="#Battery1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasForecast"/>
+        <NamedIndividual IRI="#Sensor1"/>
+        <NamedIndividual IRI="#Forecast1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#Sensor1"/>
+        <NamedIndividual IRI="#Location1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEdgeDeviceOf"/>
+        <NamedIndividual IRI="#Sensor1"/>
+        <NamedIndividual IRI="#System1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+        <NamedIndividual IRI="#Smartphone1"/>
+        <NamedIndividual IRI="#Battery1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasForecast"/>
+        <NamedIndividual IRI="#Smartphone1"/>
+        <NamedIndividual IRI="#Forecast1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isUserDeviceOf"/>
+        <NamedIndividual IRI="#Smartphone1"/>
+        <NamedIndividual IRI="#System1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCloudDevice"/>
+        <NamedIndividual IRI="#System1"/>
+        <NamedIndividual IRI="#CloudServer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEdgeDevice"/>
+        <NamedIndividual IRI="#System1"/>
+        <NamedIndividual IRI="#Sensor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUserDevice"/>
+        <NamedIndividual IRI="#System1"/>
+        <NamedIndividual IRI="#Smartphone1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacityData"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#chargeStateData"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#chargeVelocityData"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#healthData"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#highValueData"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <Literal>2020-05-16T15:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lowValueData"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-13T15:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#riskData"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#timeData"/>
+        <NamedIndividual IRI="#Battery1"/>
+        <Literal>2020-05-13T15:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#batteryForecastData"/>
+        <NamedIndividual IRI="#Forecast1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#latitudeData"/>
+        <NamedIndividual IRI="#Location1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">41.3887901</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#longitudeData"/>
+        <NamedIndividual IRI="#Location1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.1589899</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#FunctionOut"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBattery"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+        <ObjectProperty IRI="#hasBattery"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasChargeState"/>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCloudDevice"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasComputed"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEdgeDevice"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasForecast"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInterval"/>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLocation"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRisk"/>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSpecification"/>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTime"/>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasUserDevice"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBatteryAtributeOf"/>
+        <ObjectProperty IRI="#isBatteryOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBatteryOf"/>
+        <ObjectProperty IRI="#is"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isChargeStateOf"/>
+        <ObjectProperty IRI="#isBatteryAtributeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCloudDeviceOf"/>
+        <ObjectProperty IRI="#is"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isComputationOf"/>
+        <ObjectProperty IRI="#is"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isEdgeDeviceOf"/>
+        <ObjectProperty IRI="#is"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isForecastOf"/>
+        <ObjectProperty IRI="#is"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isIntervalOf"/>
+        <ObjectProperty IRI="#isBatteryAtributeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLocationOf"/>
+        <ObjectProperty IRI="#is"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isRiskOf"/>
+        <ObjectProperty IRI="#isBatteryAtributeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSensorOf"/>
+        <ObjectProperty IRI="#is"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSpecificationOf"/>
+        <ObjectProperty IRI="#isBatteryAtributeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTimeOf"/>
+        <ObjectProperty IRI="#isBatteryAtributeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isUserDeviceOf"/>
+        <ObjectProperty IRI="#is"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasBattery"/>
+        <ObjectProperty IRI="#isBatteryOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasChargeState"/>
+        <ObjectProperty IRI="#isChargeStateOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCloudDevice"/>
+        <ObjectProperty IRI="#isCloudDeviceOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasComputed"/>
+        <ObjectProperty IRI="#isComputationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasForecast"/>
+        <ObjectProperty IRI="#isForecastOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasInterval"/>
+        <ObjectProperty IRI="#isIntervalOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLocation"/>
+        <ObjectProperty IRI="#isLocationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRisk"/>
+        <ObjectProperty IRI="#isRiskOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSpecification"/>
+        <ObjectProperty IRI="#isSpecificationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTime"/>
+        <ObjectProperty IRI="#isTimeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasUserDevice"/>
+        <ObjectProperty IRI="#isUserDeviceOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#FunctionIn"/>
+        <Class IRI="#Methods"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#FunctionOut"/>
+        <Class IRI="#Methods"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#System"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasChargeState"/>
+        <Class IRI="#Battery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCloudDevice"/>
+        <Class IRI="#CloudDevices"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasForecast"/>
+        <Class IRI="#Battery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInterval"/>
+        <Class IRI="#Battery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRisk"/>
+        <Class IRI="#Battery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpecification"/>
+        <Class IRI="#Battery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTime"/>
+        <Class IRI="#Battery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUserDevice"/>
+        <Class IRI="#UserDevices"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#FunctionIn"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#FunctionOut"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#System"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasChargeState"/>
+        <Class IRI="#BatteryChargeStateAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComputed"/>
+        <Class IRI="#Forecast"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComputed"/>
+        <Class IRI="#Methods"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasForecast"/>
+        <Class IRI="#Forecast"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInterval"/>
+        <Class IRI="#HighValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInterval"/>
+        <Class IRI="#LowValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#LatitudeLocation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#LongitudeLocation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRisk"/>
+        <Class IRI="#BatteryRiskAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpecification"/>
+        <Class IRI="#CapacitySpecification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpecification"/>
+        <Class IRI="#ChargeVelocitySpecification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpecification"/>
+        <Class IRI="#HealthSpecification"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasBatteryAtributes"/>
+        <ObjectProperty IRI="#hasForecast"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#batteryAttributesData"/>
+        <DataProperty IRI="#batteryData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#batteryData"/>
+        <DataProperty IRI="#networkData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#batteryForecastData"/>
+        <DataProperty IRI="#networkData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#capacityData"/>
+        <DataProperty IRI="#specificationData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#chargeStateData"/>
+        <DataProperty IRI="#batteryAttributesData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#chargeVelocityData"/>
+        <DataProperty IRI="#specificationData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#funcName"/>
+        <DataProperty IRI="#methodsData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#healthData"/>
+        <DataProperty IRI="#specificationData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#highValueData"/>
+        <DataProperty IRI="#intervalData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#intervalData"/>
+        <DataProperty IRI="#batteryAttributesData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#latitudeData"/>
+        <DataProperty IRI="#locationData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#locationData"/>
+        <DataProperty IRI="#networkData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#longitudeData"/>
+        <DataProperty IRI="#locationData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#lowValueData"/>
+        <DataProperty IRI="#intervalData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#methodsData"/>
+        <DataProperty IRI="#networkData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#riskData"/>
+        <DataProperty IRI="#batteryAttributesData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#specificationData"/>
+        <DataProperty IRI="#batteryAttributesData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#timeData"/>
+        <DataProperty IRI="#batteryAttributesData"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#batteryAttributesData"/>
+        <Class IRI="#BatteryAttributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#batteryData"/>
+        <Class IRI="#Battery"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacityData"/>
+        <Class IRI="#CapacitySpecification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#chargeStateData"/>
+        <Class IRI="#BatteryChargeStateAttribute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#chargeVelocityData"/>
+        <Class IRI="#ChargeVelocitySpecification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#healthData"/>
+        <Class IRI="#HealthSpecification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#highValueData"/>
+        <Class IRI="#HighValue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#intervalData"/>
+        <Class IRI="#BatteryIntervalAttribute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#latitudeData"/>
+        <Class IRI="#LatitudeLocation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locationData"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#longitudeData"/>
+        <Class IRI="#LongitudeLocation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lowValueData"/>
+        <Class IRI="#LowValue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#methodsData"/>
+        <Class IRI="#Methods"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#riskData"/>
+        <Class IRI="#BatteryRiskAttribute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#specificationData"/>
+        <Class IRI="#BatterySpecificationsAttribute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#timeData"/>
+        <Class IRI="#TimeAttribute"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>planificació de càrrega i deacàrrega</Literal>
+        </Annotation>
+        <DataProperty IRI="#batteryForecastData"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Amperi-hora</Literal>
+        </Annotation>
+        <DataProperty IRI="#capacityData"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#chargeStateData"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:int"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#chargeVelocityData"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#funcName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#healthData"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:int"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#intervalData"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>signe + representa el nort, signe - representa el sud</Literal>
+        </Annotation>
+        <DataProperty IRI="#latitudeData"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">-90.0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">90.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#longitudeData"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">360.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#riskData"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:int"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#timeData"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#highValueData"/>
+        <DataProperty IRI="#lowValueData"/>
+    </DisjointDataProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BatteryAttributes</IRI>
+        <Literal>Diversos atributs d&apos;una bateria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BatteryChargeStateAttribute</IRI>
+        <Literal>% of battery charged</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BatteryIntervalAttribute</IRI>
+        <Literal>Interval de disponibilitat de la bateria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BatteryRiskAttribute</IRI>
+        <Literal>Cuantifica el risc que vol prendre l&apos;usuari al fer la descarrega, és a dir, fins a quin nivell és descarregarà aquesta, ja que si l’usuari vol que es pugi descarregar del tot, pot ser que tingui un imprevist i hagi d’usar la bateria quan esta gens o molt poc carregada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BatterySpecificationsAttribute</IRI>
+        <Literal>Característiques de la bateria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChargeVelocitySpecification</IRI>
+        <Literal>velocitat de carrega ampers-hora</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Forecast</IRI>
+        <Literal>Planificació de càrrega i descarrega per a una bateria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HighValue</IRI>
+        <Literal>data final de disponibilitat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal>Ubicació de la bateria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LowValue</IRI>
+        <Literal>data d&apos;inici de disponibilitat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#System</IRI>
+        <Literal>Sistema amb tots els dispositus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TimeAttribute</IRI>
+        <Literal>Registra el temps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UserDevices</IRI>
+        <Literal>Dispositius que l&apos;usuari usa directament com a smatphones,tablets etz..</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
